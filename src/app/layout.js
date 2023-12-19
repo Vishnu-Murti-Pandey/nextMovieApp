@@ -16,9 +16,6 @@ const mulish = Mulish({
 
 export default function RootLayout({ children }) {
 
-  const url = process.env.RAPID_KEY;
-  console.log(url);
-
   return (
     <html lang="en" className={mulish.className}>
       <body>
